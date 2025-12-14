@@ -7,6 +7,20 @@ int main(){
 player p1=create_player();
 player p2=create_player();
 
+player current =p1;
+int position;
+
+for (int turn=0; turn<9; turn++){
+    game_draw_board(board);
+    std::cout<<current.name<<" A TOI DE JOUER ! ";
+    std::cin >>position;
+
+    if ( position<1|| position>9|| board[position -1  ]==p1.symbol|| board[position-1]==p2.symbol){
+    std::cout<<"Impossible de placer ici gros nullos \n";
+    turn--;
+    continue;
+    }
+}
 game_draw_board(board);
 return 0;
 }
