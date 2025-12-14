@@ -3,7 +3,7 @@
 #include "game.hpp"
 
 int main(){
-    char board[9]={'1','2','3','4','4','6','7','8','9'};
+    char board[9]={'1','2','3','4','5','6','7','8','9'};
 player p1=create_player();
 player p2=create_player();
 
