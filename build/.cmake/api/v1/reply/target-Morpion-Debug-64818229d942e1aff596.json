@@ -81,7 +81,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -115,21 +116,16 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2
+				2,
+				3
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				1
-			]
-		},
-		{
-			"name" : "",
-			"sourceIndexes" : 
-			[
-				3
+				1,
+				4
 			]
 		}
 	],
@@ -138,12 +134,12 @@
 		{
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
-			"path" : "src/Player.cpp",
+			"path" : "src/game.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 4,
-			"path" : "src/Player.hpp",
+			"path" : "src/game.hpp",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -154,8 +150,14 @@
 		},
 		{
 			"backtrace" : 4,
-			"path" : "src/player.js",
-			"sourceGroupIndex" : 2
+			"compileGroupIndex" : 0,
+			"path" : "src/player.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "src/player.hpp",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

@@ -4,10 +4,11 @@
 # MY_SOURCES at CMakeLists.txt:12 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/src/*")
 set(OLD_GLOB
-  "C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/src/Player.cpp"
-  "C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/src/Player.hpp"
+  "C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/src/game.cpp"
+  "C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/src/game.hpp"
   "C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/src/main.cpp"
-  "C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/src/player.js"
+  "C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/src/player.cpp"
+  "C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/src/player.hpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
