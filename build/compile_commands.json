@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/build",
+  "command": "C:\\winlibs\\winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r1\\mingw64\\bin\\c++.exe -IC:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/src -g -std=gnu++20 -o CMakeFiles\\Morpion.dir\\src\\Player.cpp.obj -c C:\\Users\\Ettor\\Documents\\IMAC1\\2025_2026_prog\\morpion\\src\\Player.cpp",
+  "file": "C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/src/Player.cpp",
+  "output": "C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/build/CMakeFiles/Morpion.dir/src/Player.cpp.obj"
+},
+{
+  "directory": "C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/build",
+  "command": "C:\\winlibs\\winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-13.0.0-r1\\mingw64\\bin\\c++.exe -IC:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/src -g -std=gnu++20 -o CMakeFiles\\Morpion.dir\\src\\main.cpp.obj -c C:\\Users\\Ettor\\Documents\\IMAC1\\2025_2026_prog\\morpion\\src\\main.cpp",
+  "file": "C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/src/main.cpp",
+  "output": "C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/build/CMakeFiles/Morpion.dir/src/main.cpp.obj"
+}
+]
