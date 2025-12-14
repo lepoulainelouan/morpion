@@ -9,6 +9,7 @@ player p2=create_player();
 
 player current =p1;
 int position;
+bool victory=false;
 
 for (int turn=0; turn<9; turn++){
     game_draw_board(board);
@@ -20,6 +21,8 @@ for (int turn=0; turn<9; turn++){
     turn--;
     continue;
     }
+    board[position - 1]=current.symbol;
+    current =(current.symbol==p1.symbol) ? p2 : p1;
 }
 game_draw_board(board);
 return 0;
