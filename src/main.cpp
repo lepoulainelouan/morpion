@@ -11,8 +11,8 @@ player current =p1;
 int position;
 bool victory=false;
 
-for (int turn=0; turn<9; turn++){
-    game_draw_board(board);
+for (int turn=0; turn<9 &&!victory; turn++){
+    draw_game_board(board);
     std::cout<<current.name<<" A TOI DE JOUER ! ";
     std::cin >>position;
 
@@ -21,9 +21,20 @@ for (int turn=0; turn<9; turn++){
     turn--;
     continue;
     }
+
     board[position - 1]=current.symbol;
+
+    if (check_victory(board, current.symbol)){
+        draw_game_board(board);
+        std::cout <<current.name<<" a GAGNE !!!";
+        victory=true;
+    }
     current =(current.symbol==p1.symbol) ? p2 : p1;
 }
-game_draw_board(board);
+
+if (!victory){
+    draw_game_board(board);
+    std::cout<<"EGALITE !";
+}
 return 0;
 }

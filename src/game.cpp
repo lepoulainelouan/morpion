@@ -1,14 +1,14 @@
 #include <iostream>
 #include "game.hpp"
 
-void game_draw_board(const char board[9]){
+void draw_game_board(const char board[9]){
     for (int i=0; i<9; i++){
         std::cout<<" | "<< board[i];
         if (i%3==2) std::cout << " |\n";
     }
 }
 
-bool victory(const char board[9],char symbol){
+bool check_victory(const char board[9],char symbol){
     int win_if[8][3]= {
         {0,1,2}, {3,4,5}, {6,7,8},{0,3,6}, {1,4,7}, {2,5,8},{0,4,8}, {2,4,6}
     };
