@@ -38,7 +38,7 @@ int ia(const char board[9], char ai_symbol, char p_symbol){
             index=win[i][j];
         }
 
-        if (count==2 && index!=1){
+        if (count==2 && index!=-1){
             return index+1;
         }
     }
