@@ -16,6 +16,7 @@ Mode 1v1 et un mode 1vsIA
 ## Problèmes rencontrés
 - IA ne bloquait pas : "index!=1" corrigé en "index!=-1"
 - Inclusion incorrecte de game.cpp dans main.cpp cela donnait un conflit de définition
+- VS code à dû être désinstallé et réinstallé car il ne voulait étrangement plus se lancer ??? -> apres ça j'ai eu des soucis sur les commits comme si gitignore ne fonctionnait plus, mais je ne sais pas si c'était ça
 
 ## Compilation
 g++ main.cpp player.cpp game.cpp -o morpion
