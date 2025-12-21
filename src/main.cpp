@@ -8,7 +8,11 @@ int main(){
     char board[9]={'1','2','3','4','5','6','7','8','9'};
     std::srand(static_cast<unsigned int>(std::time(nullptr)));
 
-    std::cout<<"Choisi ton mode (1=1V1, 2=1vsIA)";
+    std::cout<<"Bienvenue dans le jeu du MORPION \n"
+"Veuillez choisir un mode de jeu :\n"
+"1. Deux joueurs \n"
+"2. Un joueur contre l'IA \n";
+
     int mode;
     std::cin>>mode;
 player p1=create_player();
