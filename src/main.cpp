@@ -35,9 +35,7 @@ for (int turn=0; turn<9 &&!victory; turn++){
     draw_game_board(board);
 
     if (vs_ai && current.name=="R2D2"){
-        do{
-            position=std::rand()%9+1;
-        }while (board[position-1]==p1.symbol || board[position-1]==p2.symbol);
+        position=ia(board,p2.symbol,p1.symbol);
         std::cout<<"R2D2 joue \n";
     }else{
     std::cout<<current.name<<" A TOI DE JOUER ! ";
