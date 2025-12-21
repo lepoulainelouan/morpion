@@ -1,7 +1,7 @@
 # ninja log v7
 163	242	7876669803809776	C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/build/CMakeFiles/cmake.verify_globs	20bd9dd6dd98a428
-115	748	7880374730379422	build.ninja	d07c33ae48ea02f2
-115	748	7880374730273648	C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/build/cmake_install.cmake	d07c33ae48ea02f2
+115	748	7880433283709983	build.ninja	d07c33ae48ea02f2
+115	748	7880433283637127	C:/Users/Ettor/Documents/IMAC1/2025_2026_prog/morpion/build/cmake_install.cmake	d07c33ae48ea02f2
 249	9586	7876669804727011	CMakeFiles/Morpion.dir/src/main.cpp.obj	84cdd017e6516c11
 130	847	7874945941957246	CMakeFiles/Morpion.dir/src/game.cpp.obj	996bede95e0cc245
 124	825	7874943074269200	CMakeFiles/Morpion.dir/src/player.cpp.obj	76fb2715dcae00e7
